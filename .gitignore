@@ -11,6 +11,9 @@
 # next.js
 /.next/
 /out/
+/studio/node_modules
+/studio/plugins
+/studio/config
 
 # production
 /build
