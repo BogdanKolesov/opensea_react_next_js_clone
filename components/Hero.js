@@ -28,6 +28,20 @@ export default function Hero() {
                     <div className={style.description}>
                         OpenSea is the world&apos;s first and largest NFT marketplace
                     </div>
+                    <div className={style.ctaContainer}>
+                        <button className={style.accentedButton}>Explore</button>
+                        <button className={style.button}>Card</button>
+                    </div>
+                </div>
+                <div className={style.cardContainer}>
+                    <img className='style.rounded-t-lg' src='https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s250' alt='' />
+                    <div className={style.infoContainer}>
+                        <img className='h-[2.25rem] rounded-full' src='https://cdn.pixabay.com/photo/2022/01/31/12/46/bird-6983434_1280.jpg' alt='' />
+                        <div className={style.author}>
+                            <div className={style.name}>Jolly</div>
+                            <a className='text-[#1868b7]' href='/'>hola-kanola</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
