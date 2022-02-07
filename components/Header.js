@@ -36,10 +36,18 @@ export default function Header() {
                 placeholder='Search items, collections and accounts' />
         </div>
         <div className={style.headerItems}>
-            <div className={style.headerItem}>Collection</div>
-            <div className={style.headerItem}>Stats</div>
-            <div className={style.headerItem}>Resources</div>
-            <div className={style.headerItem}>Create</div>
+            <Link href='/collections/0x91D91CE90dE753cb6d51B576c795bE10485effd1' >
+                <div className={style.headerItem}>Collection</div>
+            </Link>
+            <Link href='/'>
+                <div className={style.headerItem}>Stats</div>
+            </Link>
+            <Link href='/'>
+                <div className={style.headerItem}>Resources</div>
+            </Link>
+            <Link href='/'>
+                <div className={style.headerItem}>Create</div>
+            </Link>
             <div className={style.headerIcon}>
                 <CgProfile />
             </div>
