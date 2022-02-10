@@ -1,1 +1,1 @@
-# Next js web3 opensea clone
+# Next js web3 opensea clone.
