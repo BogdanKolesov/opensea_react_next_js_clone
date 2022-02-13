@@ -7,5 +7,6 @@ const connectirs = {
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
+//add
 
 export default MyApp
