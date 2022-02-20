@@ -5,7 +5,12 @@ const connectirs = {
   injected: {}
 }
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <ThirdwebWeb3Provider
+    supportedChainIds={supportedChainIds}
+    connectors={connectors}
+  >
+    <Component {...pageProps} />)
+  </ThirdwebWeb3Provider>
 }
 //add
 
